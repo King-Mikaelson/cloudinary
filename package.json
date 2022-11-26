@@ -5,8 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js",
-    "start-watch": "nodemon server.js",
+    "start": "nodemon app.js",
+    "start-watch": "nodemon app.js",
     "dev": "concurrently \"yarn run start-watch\"  \"cd card && yarn start\""
   },
   "author": "ugbe chike",
